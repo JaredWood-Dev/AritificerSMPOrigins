@@ -1,5 +1,7 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:kobold/kobold_size"
+    ],
     "icon": {
         "item":"minecraft:gold_nugget"
     },
