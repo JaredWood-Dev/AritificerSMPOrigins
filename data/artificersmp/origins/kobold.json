@@ -1,6 +1,7 @@
 {
     "powers": [
-        "artificersmp:kobold/kobold_size"
+        "artificersmp:kobold/kobold_size",
+        "artificersmp:kobold/kobold_speed"
     ],
     "icon": {
         "item":"minecraft:gold_nugget"
