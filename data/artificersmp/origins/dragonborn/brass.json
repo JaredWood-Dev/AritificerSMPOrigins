@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"create:brass_ingot"
+    },
+    "impact": 2,
+    "name": "Brass",
+    "description": "Brass Dragonborn claim linage to Brass Dragons, creatues who breath plumes of fire."
+}

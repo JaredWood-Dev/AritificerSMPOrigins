@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:stone"
+    },
+    "impact": 1,
+    "name": "Mountain",
+    "description": "Mountain Dwarves are strong and hearty, and accustomed to life in difficult terrain."
+}

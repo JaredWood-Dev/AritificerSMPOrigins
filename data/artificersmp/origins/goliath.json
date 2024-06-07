@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:stone"
+    },
+    "impact": 2,
+    "name": "Goliath",
+    "description": "Goliaths are half-giants who wander the cold, desolate mountain peaks. They exhibit the gray skin and enduring strength from the giants in which they claim lineage."
+}

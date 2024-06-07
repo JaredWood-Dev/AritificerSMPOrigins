@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:stone_bricks"
+    },
+    "impact": 1,
+    "name": "Dwarf",
+    "description": "Dwarves are a broad and harty people known for being skilled warriors, miners, and artisans of stone and metal. They have courage and endurance to easily match those larger than they."
+}

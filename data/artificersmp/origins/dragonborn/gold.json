@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:gold_ingot"
+    },
+    "impact": 2,
+    "name": "Gold",
+    "description": "Gold Dragonborn claim linage to Gold Dragons, creatures who breath plumes of fire."
+}

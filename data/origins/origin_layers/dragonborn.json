@@ -1,0 +1,30 @@
+{
+    "origins":[
+        {
+            "condition": {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "artificersmp:dragonborn"
+            },
+            "origins": [
+                "artificersmp:dragonborn/blue",
+                "artificersmp:dragonborn/red",
+                "artificersmp:dragonborn/green",
+                "artificersmp:dragonborn/black",
+                "artificersmp:dragonborn/white",
+                "artificersmp:dragonborn/silver",
+                "artificersmp:dragonborn/copper",
+                "artificersmp:dragonborn/brass",
+                "artificersmp:dragonborn/bronze",
+                "artificersmp:dragonborn/gold",
+                "artificersmp:dragonborn/amethyst",
+                "artificersmp:dragonborn/crystal",
+                "artificersmp:dragonborn/emerald",
+                "artificersmp:dragonborn/sapphire",
+                "artificersmp:dragonborn/topaz"
+            ]
+        }
+    ],
+    "order": 2,
+    "name": "Draconic Ancestry"
+}

@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "order": 1,
+    "origins":[
+        "artificersmp:dragonborn",
+        "artificersmp:human",
+        "artificersmp:elf",
+        "artificersmp:dwarf",
+        "artificersmp:tiefling",
+        "artificersmp:goliath",
+        "artificersmp:kobold"
+    ]
+}

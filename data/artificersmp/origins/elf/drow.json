@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:flint"
+    },
+    "impact": 2,
+    "name": "Drow",
+    "description": "The Drow are infused with the magic of the underdark, being able to summon forth light and darkness."
+}

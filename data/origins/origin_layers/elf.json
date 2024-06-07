@@ -1,0 +1,18 @@
+{
+    "origins":[
+        {
+            "condition": {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "artificersmp:elf"
+            },
+            "origins": [
+                "artificersmp:elf/wood",
+                "artificersmp:elf/high",
+                "artificersmp:elf/drow"
+            ]
+        }
+    ],
+    "order": 2,
+    "name": "Elven Heritage"
+}

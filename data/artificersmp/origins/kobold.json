@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:gold_nugget"
+    },
+    "impact": 2,
+    "name": "Kobold",
+    "description": "Kobolds are among the smallest draconic creatures in the world and display thier draconic lineage in the glint of thier scales. Kobolds are known to work together in tribes."
+}
