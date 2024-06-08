@@ -1,5 +1,7 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:elf/elf_elven_build"
+    ],
     "icon": {
         "item":"minecraft:chiseled_quartz_block"
     },
