@@ -20,12 +20,12 @@
                 {
                     "type": "origins:execute_command",
                     "permission_level": 4,
-                    "command": "scale set pehkui:block_reach 6.5 @s"
+                    "command": "scale set pehkui:block_reach 2 @s"
                 },
                 {
                     "type": "origins:execute_command",
                     "permission_level": 4,
-                    "command": "scale set pehkui:entity_reach 5 @s"
+                    "command": "scale set pehkui:entity_reach 2 @s"
                 },
                 {
                     "type": "origins:execute_command",
@@ -99,12 +99,12 @@
                 {
                     "type": "origins:execute_command",
                     "permission_level": 4,
-                    "command": "scale set pehkui:block_reach 4.5 @s"
+                    "command": "scale set pehkui:block_reach 1 @s"
                 },
                 {
                     "type": "origins:execute_command",
                     "permission_level": 4,
-                    "command": "scale set pehkui:entity_reach 3 @s"
+                    "command": "scale set pehkui:entity_reach 1 @s"
                 },
                 {
                     "type": "origins:execute_command",
@@ -155,12 +155,12 @@
                 {
                     "type": "origins:execute_command",
                     "permission_level": 4,
-                    "command": "scale set pehkui:block_reach 4.5 @s"
+                    "command": "scale set pehkui:block_reach 1 @s"
                 },
                 {
                     "type": "origins:execute_command",
                     "permission_level": 4,
-                    "command": "scale set pehkui:entity_reach 3 @s"
+                    "command": "scale set pehkui:entity_reach 1 @s"
                 },
                 {
                     "type": "origins:execute_command",
