@@ -1,0 +1,109 @@
+{
+	"name": "Size",
+	"description": "You are a small draconic creature.",
+	"type": "origins:action_on_callback",
+	"entity_action_chosen":
+	{
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 0.77 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 0.77 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:eye_height 0.95 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:hitbox_height 0.85 @s"
+			}
+		]
+	},
+	"entity_action_added":
+	{
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 0.77 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 0.77 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:eye_height 0.95 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:hitbox_height 0.85 @s"
+			}
+		]
+	},
+	"entity_action_lost":
+	{
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 1 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:eye_height 1 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:hitbox_height 1 @s"
+			}
+		]
+	},
+	"entity_action_removed":
+	{
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 1 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:eye_height 1 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:hitbox_height 1 @s"
+			}
+		]
+	}
+}

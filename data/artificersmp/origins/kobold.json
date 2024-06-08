@@ -1,5 +1,13 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:kobold/kobold_size",
+        "artificersmp:kobold/kobold_speed",
+        "artificersmp:darkvision",
+        "artificersmp:sunlight_sensitivity",
+        "artificersmp:kobold/kobold_kin",
+        "artificersmp:kobold/kobold_reputation",
+        "artificersmp:kobold/kobold_draconic_sorcery"
+    ],
     "icon": {
         "item":"minecraft:gold_nugget"
     },

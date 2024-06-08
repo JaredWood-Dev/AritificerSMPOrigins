@@ -1,0 +1,8 @@
+{
+    "name": "Social Creature",
+    "description": "You start with your fellow Kobold kin.",
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "strucure": "kobolds:kobold_den_small",
+    "spawn_strategy": "default"
+}
