@@ -1,0 +1,18 @@
+{
+    "name": "Sunlight Sensitvity",
+    "description": "You are not accustomed to the sunlight and are weak in it.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -3,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 20,
+    "effect": {
+        "effect": "minecraft:weakness",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+    },
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    }
+}
