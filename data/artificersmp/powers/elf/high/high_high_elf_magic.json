@@ -1,0 +1,10 @@
+{
+    "name": "High Elf Magic",
+    "description": "You have recieved training in the basics of magic for as long as you can remember. You know the mage light glyph.",
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "ars-glyph @s ars_nouveau:glyph_light"
+    }
+}
