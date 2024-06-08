@@ -1,0 +1,12 @@
+{
+    "name": "Kobold Repuation",
+    "description": "Kobolds have a reputation of stealing and pillaging. Unfortuantly this means villagers don't like you.",
+    "type": "origins:action_on_callback",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "/data merge entity @s {VillagerData:{reputation:-50}}"
+    },
+    "execute_as_player": true,
+    "frequency": "tick"
+  }
+  

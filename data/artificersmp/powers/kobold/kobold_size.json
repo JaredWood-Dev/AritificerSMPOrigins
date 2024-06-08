@@ -9,12 +9,22 @@
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:height 0.78 @s"
+				"command": "scale set pehkui:height 0.77 @s"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:width 0.78 @s"
+				"command": "scale set pehkui:width 0.77 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:eye_height 0.95 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:hitbox_height 0.85 @s"
 			}
 		]
 	},
@@ -25,12 +35,22 @@
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:height 0.78 @s"
+				"command": "scale set pehkui:height 0.77 @s"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:width 0.78 @s"
+				"command": "scale set pehkui:width 0.77 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:eye_height 0.95 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:hitbox_height 0.85 @s"
 			}
 		]
 	},
@@ -47,6 +67,16 @@
 				"type": "origins:execute_command",
 				"permission_level": 4,
 				"command": "scale set pehkui:width 1 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:eye_height 1 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:hitbox_height 1 @s"
 			}
 		]
 	},
@@ -63,6 +93,16 @@
 				"type": "origins:execute_command",
 				"permission_level": 4,
 				"command": "scale set pehkui:width 1 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:eye_height 1 @s"
+			},
+            {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:hitbox_height 1 @s"
 			}
 		]
 	}

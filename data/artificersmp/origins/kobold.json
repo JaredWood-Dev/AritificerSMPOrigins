@@ -2,7 +2,8 @@
     "powers": [
         "artificersmp:kobold/kobold_size",
         "artificersmp:kobold/kobold_speed",
-        "artificersmp:darkvision"
+        "artificersmp:darkvision",
+        "artificersmp:kobold/kobold_reputation"
     ],
     "icon": {
         "item":"minecraft:gold_nugget"
