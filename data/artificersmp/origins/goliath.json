@@ -1,6 +1,7 @@
 {
     "powers": [
-        "artificersmp:goliath/goliath_mountain_born"
+        "artificersmp:goliath/goliath_mountain_born",
+        "artificersmp:goliath/goliath_giant_build"
     ],
     "icon": {
         "item":"minecraft:stone"
