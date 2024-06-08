@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:red_dye"
+    },
+    "impact": 2,
+    "name": "Red",
+    "description": "Red Dragonborn claim lineage to anchient red dragons, creatures who breathe plumes of fire."
+}

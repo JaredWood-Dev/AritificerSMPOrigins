@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:oak_sapling"
+    },
+    "impact": 1,
+    "name": "Wood",
+    "description": "Wood Elves have keen senses and intuition, and thier feet can carry them quickly through thier native forests."
+}

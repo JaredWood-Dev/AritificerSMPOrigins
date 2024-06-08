@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:coarse_dirt"
+    },
+    "impact": 1,
+    "name": "Hill",
+    "description": "Hill Dwarves have keen senses, deep intuition, and remarkable resiliance."
+}

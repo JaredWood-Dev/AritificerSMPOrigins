@@ -1,0 +1,19 @@
+{
+    "origins":[
+        {
+            "condition": {
+                "type": "origins:origin",
+                "layer": "origins:origin",
+                "origin": "artificersmp:dwarf"
+            },
+            "origins": [
+                "artificersmp:dwarf/hill",
+                "artificersmp:dwarf/mountain",
+                "artificersmp:dwarf/duergar",
+                "artificersmp:dwarf/dawi_zharr"
+            ]
+        }
+    ],
+    "order": 2,
+    "name": "Dwarven Heritage"
+}

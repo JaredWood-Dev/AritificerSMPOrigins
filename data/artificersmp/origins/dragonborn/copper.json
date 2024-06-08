@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:copper_ingot"
+    },
+    "impact": 2,
+    "name": "Copper",
+    "description": "Copper Dragonborn claim linage to Copper Dragons, creatures who breath corrosive acid."
+}

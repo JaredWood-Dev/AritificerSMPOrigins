@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:red_nether_bricks"
+    },
+    "impact": 1,
+    "name": "Tiefling",
+    "description": "Teiflings are derived from Human bloodlines, and in the broadest possible sense, they still look human. However, thier infernal heritage has left a clear imprint on thier appearence."
+}

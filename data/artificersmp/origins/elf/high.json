@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:nether_star"
+    },
+    "impact": 1,
+    "name": "High",
+    "description": "High Elves have a keen understanding on the basics of magic. High Elves generally see them selves as superior to others, even other elves."
+}

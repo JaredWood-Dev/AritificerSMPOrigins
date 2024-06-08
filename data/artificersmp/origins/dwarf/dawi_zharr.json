@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:magma_block"
+    },
+    "impact": 2,
+    "name": "Dawi-Zharr",
+    "description": "Dawi-Zharr are the worst traits of dwarves given a physical form, warped by chaos energy."
+}

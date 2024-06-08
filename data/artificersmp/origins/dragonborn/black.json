@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:black_dye"
+    },
+    "impact": 2,
+    "name": "Black",
+    "description": "Black Dragonborn claim linage to Black Dragons, creatues who breathe corrosive acid."
+}

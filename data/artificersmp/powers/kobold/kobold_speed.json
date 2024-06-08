@@ -1,0 +1,10 @@
+{
+    "name": "Kobold Speed",
+    "description": "You are quick and nimble, you walk faster.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.125,
+        "operation": "multiply_total"
+    }
+}

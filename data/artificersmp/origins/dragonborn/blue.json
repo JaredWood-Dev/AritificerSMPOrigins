@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:blue_dye"
+    },
+    "impact": 2,
+    "name": "Blue",
+    "description": "Blue Dragonborn claim lineage to Blue Dragons, creature who breathe bolts of lightning."
+}

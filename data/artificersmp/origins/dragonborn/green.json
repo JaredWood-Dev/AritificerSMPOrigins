@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "item":"minecraft:green_dye"
+    },
+    "impact": 2,
+    "name": "Green",
+    "description": "Green Dragonborn claim lineage to Green Dragons, creatures who breathe clouds of poisonous gas."
+}
