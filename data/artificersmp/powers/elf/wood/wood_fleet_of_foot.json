@@ -1,0 +1,10 @@
+{
+    "name": "Fleet of Foot",
+    "description": "You have spent years traversing mystical woods and have become faster for it.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_base",
+        "value": 0.1
+    }
+}
