@@ -1,6 +1,8 @@
 {
     "powers": [
-        "artificersmp:elf/elf_elven_build"
+        "artificersmp:elf/elf_elven_build",
+        "artificersmp:darkvision",
+        "artificersmp:elf/elf_trance"
     ],
     "icon": {
         "item":"minecraft:chiseled_quartz_block"

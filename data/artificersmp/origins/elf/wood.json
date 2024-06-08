@@ -1,5 +1,8 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:elf/elf_weapon_training",
+        "artificersmp:elf/wood/wood_fleet_of_foot"
+    ],
     "icon": {
         "item":"minecraft:oak_sapling"
     },
