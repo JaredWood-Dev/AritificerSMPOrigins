@@ -178,5 +178,28 @@
             "operation": "set",
             "change": 0
         }
+    },
+    "reset_on_duration_death": {
+        "type": "origins:action_on_callback",
+        "entity_action_respawned": {
+            "type": "origins:change_resource",
+            "resource": "artificersmp:goliath/goliath_giant_legacy_duration",
+            "operation": "set",
+            "change": 0
+        }
+    },
+    "strength": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 1
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "artificersmp:goliath/goliath_giant_legacy_duration",
+            "comparison": ">",
+            "compare_to": 0
+        }
     }
 }
