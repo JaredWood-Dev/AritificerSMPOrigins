@@ -1,0 +1,41 @@
+{
+  "name": "Dwarven Build",
+  "description": "You are short like a dwarf.",
+  "type": "origins:action_on_callback",
+  "entity_action_added": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:height 0.8 @s",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:width 0.9 @s",
+        "permission_level": 4
+      }
+    ]
+  },
+  "entity_action_lost": {
+    "type": "origins:execute_command",
+    "command": "scale reset pehkui:height @s",
+    "permission_level": 4
+  },
+  "entity_action_respawn": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:height 0.8 @s",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:width 0.9 @s",
+        "permission_level": 4
+      }
+    ]
+  },
+  "execute_chosen_when_orb": true
+}

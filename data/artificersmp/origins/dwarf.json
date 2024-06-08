@@ -1,5 +1,13 @@
 {
-    "powers": [],
+    "powers": [
+        "darkvision",
+        "dwarf_axe_damage",
+        "dwarf_constitution",
+        "dwarf_mining",
+        "dwarf_resiliance",
+        "dwarf_size.json",
+        "dwarf_speed.json"
+    ],
     "icon": {
         "item":"minecraft:stone_bricks"
     },
