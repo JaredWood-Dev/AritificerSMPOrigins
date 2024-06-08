@@ -1,0 +1,10 @@
+{
+  "name": "Slow Frame",
+  "description": "Being made out of heavy metals causes you to move slightly slower.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "value": -0.10,
+    "operation": "multiply_total"
+  }
+}
