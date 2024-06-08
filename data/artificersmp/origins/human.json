@@ -1,5 +1,8 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:human/human_ambition",
+        "artificersmp:human/human_versatility"
+    ],
     "icon": {
         "item":"minecraft:player_head"
     },

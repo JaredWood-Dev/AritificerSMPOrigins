@@ -1,0 +1,11 @@
+{
+    "name": "Human Ambition",
+    "description": "You are ambitious, you gain more experience than others.",
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "attributeslib:experience_gained",
+        "value": 1,
+        "operation": "multiply_base"
+    }
+}
