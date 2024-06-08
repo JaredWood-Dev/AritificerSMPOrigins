@@ -1,0 +1,37 @@
+{
+  "name": "Warforged Resilience",
+  "description": "You were created to have remarkable fortitude. You take less poison damage and do not need to eat or sleep.",
+  "type":"origins:multiple",
+
+  "disable_sprint_hunger":{
+    "type":"origins:modify_exhaustion",
+    "modifier":{
+      "operation":"set_total",
+      "value":0
+    }
+  },
+  "feed_overtime":{
+    "type":"origins:action_over_time",
+    "interval":10,
+    "entity_action": {
+      "type": "origins:feed",
+      "food": 1,
+      "saturation": 0
+    }
+  },
+  "disable_sleep": {
+    "type": "origins:modify_insomnia_ticks",
+    "modifier": {
+      "operation": "set_total",
+      "value": 0
+    }
+  },
+  "poison_resistance":{
+    "type": "origins:modify_status_effect_duration",
+    "status_effect": "minecraft:poison",
+    "modifier": {
+      "operation": "multiply_base_multiplicative",
+      "value": -0.5
+    }
+  }
+}
