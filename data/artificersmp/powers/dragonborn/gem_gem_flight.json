@@ -48,7 +48,7 @@
                     "type": "origins:change_resource",
                     "resource": "artificersmp:dragonborn/gem_gem_flight_duration",
                     "operation": "set",
-                    "change": 60
+                    "change": 20
                 },
                 {
                     "type": "origins:change_resource",
