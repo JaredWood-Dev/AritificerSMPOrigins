@@ -140,6 +140,9 @@
             "resource": "artificersmp:dragonborn/red/red_chromatic_warding_used",
             "comparison": "==",
             "compare_to": 0
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
         }
     },
     "update_duration": {

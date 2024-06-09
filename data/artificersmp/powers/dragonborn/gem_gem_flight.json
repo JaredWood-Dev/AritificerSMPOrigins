@@ -63,6 +63,9 @@
             "resource": "artificersmp:dragonborn/gem_gem_flight_used",
             "comparison": "==",
             "compare_to": 0
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
         }
     },
     "update_duration": {
