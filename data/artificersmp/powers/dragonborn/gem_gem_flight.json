@@ -1,6 +1,6 @@
 {
     "name": "Gem Flight",
-    "description": "Once per day you can summon spectral wings for 1 minute. During this time you can fly.",
+    "description": "Once per day you can summon spectral wings for 20 seconds. During this time you can fly.",
     "type": "origins:multiple",
     "used":
     {
@@ -16,7 +16,7 @@
     "duration":{
         "type": "origins:resource",
         "min": 0,
-        "max": 60,
+        "max": 20,
         "hud_render": {
             "should_render": true,
             "bar_index": 23,
