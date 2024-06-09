@@ -1,6 +1,7 @@
 {
     "powers": [
-         "artificersmp:dragonborn/dragonborn_draconic_resistance_thunder"
+         "artificersmp:dragonborn/dragonborn_draconic_resistance_thunder",
+         "artificersmp:dragonborn/gem_gem_flight"
     ],
     "icon": {
         "item":"iceandfire:sapphire_gem"

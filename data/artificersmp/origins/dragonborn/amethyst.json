@@ -1,6 +1,7 @@
 {
     "powers": [
-        "artificersmp:dragonborn/dragonborn_draconic_resistance_force"
+        "artificersmp:dragonborn/dragonborn_draconic_resistance_force",
+        "artificersmp:dragonborn/gem_gem_flight"
     ],
     "icon": {
         "item":"minecraft:amethyst_shard"

@@ -1,6 +1,7 @@
 {
     "powers": [
-        "artificersmp:dragonborn/dragonborn_draconic_build"
+        "artificersmp:dragonborn/dragonborn_draconic_build",
+        "origins:more_exhaustion"
     ],
     "icon": {
         "item": "minecraft:dragon_egg"

@@ -1,6 +1,7 @@
 {
     "powers": [
-         "artificersmp:dragonborn/dragonborn_draconic_resistance_necrotic"
+         "artificersmp:dragonborn/dragonborn_draconic_resistance_necrotic",
+         "artificersmp:dragonborn/gem_gem_flight"
     ],
     "icon": {
         "item":"knightsnmages:citrin_gem"
