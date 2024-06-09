@@ -47,19 +47,19 @@
 			},
 			{
 				"type": "origins:name",
-				"name": "hot_floor"
+				"name": "hotFloor"
 			},
 			{
 				"type": "origins:name",
-				"name": "in_fire"
+				"name": "inFire"
 			},
 			{
 				"type": "origins:name",
-				"name": "fan_lava"
+				"name": "lava"
 			},
 			{
 				"type": "origins:name",
-				"name": "on_fire"
+				"name": "onFire"
 			},
 			{
 				"type": "origins:name",
