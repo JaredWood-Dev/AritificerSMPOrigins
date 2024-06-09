@@ -1,5 +1,7 @@
 {
-    "powers": [],
+    "powers": [
+         "artificersmp:dragonborn/dragonborn_draconic_resistance_force"
+    ],
     "icon": {
         "item":"minecraft:emerald"
     },

@@ -1,5 +1,7 @@
 {
-    "powers": [],
+    "powers": [
+         "artificersmp:dragonborn/dragonborn_draconic_resistance_lightning"
+    ],
     "icon": {
         "item":"ad_astra:desh_ingot"
     },

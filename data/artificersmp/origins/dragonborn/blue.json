@@ -1,5 +1,7 @@
 {
-    "powers": [],
+    "powers": [
+         "artificersmp:dragonborn/dragonborn_draconic_resistance_lightning"
+    ],
     "icon": {
         "item":"minecraft:blue_dye"
     },

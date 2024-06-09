@@ -1,0 +1,26 @@
+{
+    "name": "Draconic Resistance",
+    "description": "You scales protect you from acid. You take half the amount of acid damage as normal.",
+    "type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:name",
+				"name": "acid_rain"
+			},
+			{
+				"type": "origins:name",
+				"name": "acid"
+			},
+			{
+				"type": "origins:name",
+				"name": "etching_acid"
+			}
+		]
+	},
+	"modifier": {
+		"operation": "multiply_base_multiplicative",
+		"value": -0.5
+	}
+}

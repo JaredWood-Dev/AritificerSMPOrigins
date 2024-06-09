@@ -1,5 +1,7 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:dragonborn/dragonborn_draconic_resistance_fire"
+    ],
     "icon": {
         "item":"create:brass_ingot"
     },

@@ -1,5 +1,7 @@
 {
-    "powers": [],
+    "powers": [
+         "artificersmp:dragonborn/dragonborn_draconic_resistance_necrotic"
+    ],
     "icon": {
         "item":"knightsnmages:citrin_gem"
     },
