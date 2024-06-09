@@ -1,0 +1,100 @@
+{
+    "name": "Draconic Build",
+    "description": "You have a slightly large build than humans and hit a little harder.",
+    "type": "origins:multiple",
+    "strength": {
+        "type": "origins:attribute",
+	    "modifier": {
+		"attribute": "minecraft:generic.attack_damage",
+		"operation": "addition",
+		"value": 2
+	    }
+    },
+    "size": {
+	    "type": "origins:action_on_callback",
+	    "entity_action_chosen":
+	    {
+		    "type": "origins:and",
+		    "actions": [
+			    {
+				    "type": "origins:execute_command",
+				    "permission_level": 4,
+				    "command": "scale set pehkui:height 1.1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:width 1.1 @s"
+                }
+            ]
+        },
+        "entity_action_added":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:height 1.1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:width 1.1 @s"
+                }
+            ]
+        },
+        "entity_action_lost":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:height 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:width 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:eye_height 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:hitbox_height 1 @s"
+                }
+            ]
+        },
+        "entity_action_removed":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:height 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:width 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:eye_height 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:hitbox_height 1 @s"
+                }
+            ]
+        }
+    }
+}
