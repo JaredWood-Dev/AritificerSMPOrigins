@@ -1,7 +1,8 @@
 {
     "powers": [
          "artificersmp:dragonborn/dragonborn_draconic_resistance_necrotic",
-         "artificersmp:dragonborn/gem_gem_flight"
+         "artificersmp:dragonborn/gem_gem_flight",
+         "artificersmp:dragonborn/dragonborn_habitat_coast"
     ],
     "icon": {
         "item":"knightsnmages:citrin_gem"

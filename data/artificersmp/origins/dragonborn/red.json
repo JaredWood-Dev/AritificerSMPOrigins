@@ -1,6 +1,7 @@
 {
     "powers": [
-        "artificersmp:dragonborn/dragonborn_draconic_resistance_fire"
+        "artificersmp:dragonborn/dragonborn_draconic_resistance_fire",
+        "artificersmp:dragonborn/dragonborn_habitat_mountains_and_molten"
     ],
     "icon": {
         "item":"minecraft:red_dye"

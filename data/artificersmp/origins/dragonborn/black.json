@@ -1,6 +1,7 @@
 {
     "powers": [
-         "artificersmp:dragonborn/dragonborn_draconic_resistance_acid"
+         "artificersmp:dragonborn/dragonborn_draconic_resistance_acid",
+         "artificersmp:dragonborn/dragonborn_habitat_temperate_and_wet"
     ],
     "icon": {
         "item":"minecraft:black_dye"

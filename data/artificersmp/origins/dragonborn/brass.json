@@ -1,6 +1,7 @@
 {
     "powers": [
-        "artificersmp:dragonborn/dragonborn_draconic_resistance_fire"
+        "artificersmp:dragonborn/dragonborn_draconic_resistance_fire",
+        "artificersmp:dragonborn/dragonborn_habitat_warm_and_dry"
     ],
     "icon": {
         "item":"create:brass_ingot"
