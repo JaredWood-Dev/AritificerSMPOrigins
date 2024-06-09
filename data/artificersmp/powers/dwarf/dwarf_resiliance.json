@@ -1,6 +1,6 @@
 {
   "name": "Dwarven Resilience",
-  "description": "You were created to have remarkable fortitude. You take less poison damage and do not need to eat or sleep.",
+  "description": "You take less poison damage.",
   "type": "origins:modify_status_effect_duration",
   "status_effect": "minecraft:poison",
   "modifier": {
