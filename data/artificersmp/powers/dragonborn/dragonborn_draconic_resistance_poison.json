@@ -1,0 +1,29 @@
+{
+    "name": "Draconic Resistance",
+    "description": "You scales protect you from poison. You take half the amount of poison damage as normal and the poison condition lasts half as long.",
+    "type": "origins:multiple",
+    "damage": {
+        "type": "origins:modify_damage_taken",
+	    "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "poison"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "multiply_base_multiplicative",
+            "value": -0.5
+        }
+    },
+    "status": {
+        "type": "origins:modify_status_effect_duration",
+        "status_effect": "minecraft:poison",
+        "modifier": {
+            "operation": "multiply_base_multiplicative",
+            "value": -0.5
+        }
+    }   
+}

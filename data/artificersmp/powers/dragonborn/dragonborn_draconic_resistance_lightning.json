@@ -1,0 +1,46 @@
+{
+    "name": "Draconic Resistance",
+    "description": "You scales protect you from lightning. You take half the amount of lightning damage as normal.",
+    "type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:name",
+				"name": "spark"
+			},
+			{
+				"type": "origins:name",
+				"name": "tesla_coil"
+			},
+			{
+				"type": "origins:name",
+				"name": "dragon_lightning"
+			},
+			{
+				"type": "origins:name",
+				"name": "razor_shock"
+			},
+			{
+				"type": "origins:name",
+				"name": "tesla"
+			},
+			{
+				"type": "origins:name",
+				"name": "tesla_primary"
+			},
+			{
+				"type": "origins:name",
+				"name": "wire_shock"
+			},
+			{
+				"type": "origins:name",
+				"name": "lightningBolt"
+			}
+		]
+	},
+	"modifier": {
+		"operation": "multiply_base_multiplicative",
+		"value": -0.5
+	}
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Draconic Resistance",
+    "description": "You scales protect you from cold. You take half the amount of cold damage as normal.",
+    "type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:name",
+				"name": "freeze"
+			},
+			{
+				"type": "origins:name",
+				"name": "cryo_fuel"
+			},
+			{
+				"type": "origins:name",
+				"name": "frost"
+			},
+			{
+				"type": "origins:name",
+				"name": "cold_damage"
+			},
+			{
+				"type": "origins:name",
+				"name": "dragon_ice"
+			}
+		]
+	},
+	"modifier": {
+		"operation": "multiply_base_multiplicative",
+		"value": -0.5
+	}
+}

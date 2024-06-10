@@ -1,0 +1,62 @@
+{
+    "name": "Habitat",
+    "description": "You are most comfortable in Icy and Cold places, like Glaciers, you are weakened elsewhere.",
+    "type": "origins:stacking_status_effect",
+    "effects": [
+        {
+            "effect": "minecraft:slowness",
+            "show_icon": false,
+            "show_particles": false,
+            "amplifier": 0
+        },
+        {
+            "effect": "minecraft:weakness",
+            "amplifier": 0,
+            "show_icon": false,
+            "show_particles": false
+        }
+    ],
+    "duration_per_stack": 100,
+    "min_stacks": -3,
+    "max_stacks": 1,
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:biome",
+                        "condition": {
+                            "type": "origins:in_tag",
+                            "tag": "forge:is_mountain"
+                        }
+                    },
+                    {
+                        "type": "origins:biome",
+                        "condition": {
+                            "type": "origins:in_tag",
+                            "tag": "forge:is_cold/climate"
+                        }
+                    },
+                    {
+                        "type": "origins:biome",
+                        "condition": {
+                            "type": "origins:in_tag",
+                            "tag": "terralith:skylands"
+                        }
+                    },
+                    {
+                        "type": "origins:biome",
+                        "condition": {
+                            "type": "origins:in_tag",
+                            "tag": "forge:is_cold"
+                        }
+                    }
+                ]
+            }
+        ],
+        "inverted": true
+    }
+}

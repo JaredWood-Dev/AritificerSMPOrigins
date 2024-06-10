@@ -1,0 +1,46 @@
+{
+    "name": "Draconic Resistance",
+    "description": "You scales protect you from pure magic. You take half the amount of force damage as normal.",
+    "type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:name",
+				"name": "spell"
+			},
+			{
+				"type": "origins:name",
+				"name": "revolver_dragonsbreath"
+			},
+			{
+				"type": "origins:name",
+				"name": "revolver_dragonsbreath_turret"
+			},
+            {
+				"type": "origins:name",
+				"name": "revolver_potion"
+			},
+            {
+				"type": "origins:name",
+				"name": "revolver_potion_turret"
+			},
+            {
+				"type": "origins:name",
+				"name": "dragon_breath"
+			},
+            {
+				"type": "origins:name",
+				"name": "indirect_magic"
+			},
+            {
+				"type": "origins:name",
+				"name": "magic"
+			}
+		]
+	},
+	"modifier": {
+		"operation": "multiply_base_multiplicative",
+		"value": -0.5
+	}
+}
