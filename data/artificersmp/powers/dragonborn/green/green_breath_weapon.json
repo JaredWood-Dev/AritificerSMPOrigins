@@ -1,6 +1,6 @@
 {
     "name": "Breath Weapon",
-    "description": "You have the ability to exhale destructive lightning energy. The amount you can exhale slowly recharges when you are not exhaling.",
+    "description": "You have the ability to exhale destructive poison. The amount you can exhale slowly recharges when you are not exhaling.",
     "type": "origins:multiple",
     "breath": {
         "type": "origins:resource",
@@ -8,8 +8,8 @@
         "max": 80,
         "start_value": 80,
         "hud_render": {
-            "sprite_location": "origins:textures/gui/resource_bar.png",
-            "bar_index": 2,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 21,
             "should_render": true
         }
     },
@@ -18,7 +18,7 @@
         "interval": 15,
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "artificersmp:dragonborn/blue/blue_breath_weapon_breath",
+            "resource": "artificersmp:dragonborn/green/green_breath_weapon_breath",
             "operation": "add",
             "change": 1
         },
@@ -39,7 +39,7 @@
         "type": "origins:action_on_wake_up",
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "artificersmp:dragonborn/blue/blue_breath_weapon_breath",
+            "resource": "artificersmp:dragonborn/green/green_breath_weapon_breath",
             "operation": "set",
             "change": 80
         }
@@ -50,7 +50,7 @@
             "type": "origins:if_else",
             "condition": {
                 "type": "origins:resource",
-                "resource": "artificersmp:dragonborn/blue/blue_breath_weapon_breath",
+                "resource": "artificersmp:dragonborn/green/green_breath_weapon_breath",
                 "comparison": ">",
                 "compare_to": 1
             },
@@ -59,27 +59,27 @@
                 "actions": [
                     {
                         "type": "origins:change_resource",
-                        "resource": "artificersmp:dragonborn/blue/blue_breath_weapon_breath",
+                        "resource": "artificersmp:dragonborn/green/green_breath_weapon_breath",
                         "operation": "add",
                         "change": -1
                     },
                     {
                         "type": "origins:play_sound",
-                        "sound": "minecraft:entity.bee.hurt",
-                        "pitch": 0.3,
+                        "sound": "minecraft:block.fire.extinguish",
+                        "pitch": 0.5,
                         "volume": 1.0
                     },
                     {
                         "type": "origins:play_sound",
-                        "sound": "minecraft:entity.player.hurt_freeze",
-                        "pitch": 1.7,
-                        "volume": 1.0
+                        "sound": "minecraft:entity.horse.breathe",
+                        "pitch": 1.125,
+                        "volume": 0.75
                     }
                 ]
             },
             "else_action": {
                 "type": "origins:change_resource",
-                "resource": "artificersmp:dragonborn/blue/blue_breath_weapon_breath",
+                "resource": "artificersmp:dragonborn/green/green_breath_weapon_breath",
                 "operation": "add",
                 "change": -1
             }
@@ -93,7 +93,7 @@
         "type": "origins:fire_projectile",
         "condition": {
             "type": "origins:resource",
-            "resource": "artificersmp:dragonborn/blue/blue_breath_weapon_breath",
+            "resource": "artificersmp:dragonborn/green/green_breath_weapon_breath",
             "comparison": ">",
             "compare_to": 1
         },
@@ -106,8 +106,8 @@
         "interval": 0,
         "count": 10,
         "start_delay": 0,
-        "speed": 0.5,
-        "divergence": 10.0,
+        "speed": 0.25,
+        "divergence": 50.0,
         "hud_render": {
             "should_render": false
         }
@@ -120,15 +120,15 @@
                 {
                     "type": "origins:damage",
                     "amount": 5,
-                    "damage_type": "minecraft:lightning_bolt"
+                    "damage_type": "ars_elemental:poison"
                 },
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:weakness",
+                        "effect": "minecraft:poison",
+                        "show_particles": true,
                         "amplifier": 0,
                         "duration": 100,
-                        "show_particles": true,
                         "show_icon": false
                     }
                 }
