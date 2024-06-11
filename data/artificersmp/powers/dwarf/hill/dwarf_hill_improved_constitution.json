@@ -1,0 +1,11 @@
+{
+  "name": "Dwarven Constitution",
+  "description": "Your body has an even higher vitality.",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Dwarven Constitution",
+    "attribute": "minecraft:generic.max_health",
+    "value": 2.0,
+    "operation": "addition"
+  }
+}

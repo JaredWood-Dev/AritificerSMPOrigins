@@ -1,5 +1,8 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:dwarf/mountain/dwarf_mountain_strength",
+        "artificersmp:dwarf/mountain/dwarf_mountain_armor_prof"
+    ],
     "icon": {
         "item":"minecraft:stone"
     },

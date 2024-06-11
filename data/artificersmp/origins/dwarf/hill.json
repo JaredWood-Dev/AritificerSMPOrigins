@@ -1,5 +1,7 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:dwarf/hill/dwarf_hill_improved_constitution"
+    ],
     "icon": {
         "item":"minecraft:coarse_dirt"
     },
