@@ -1,0 +1,12 @@
+{
+    "name": "Hellish Rebuke",
+    "description": "You can show your attackers the wrath of the hells. Whenever you are attacked, the attacker is set on fire.",
+    "type": "origins:action_when_hit",
+    "bientity_action": {
+        "type": "origins:actor_action",
+        "action": {
+            "type": "origins:set_on_fire",
+            "duration": 6
+        }
+    }
+}
