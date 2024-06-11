@@ -1,0 +1,82 @@
+{
+    "name": "Hellish Resistance",
+    "description": "Your heritage is linked to the nine hells, granting you reistance to the fire present there. You take half the amount of fire damage as normal.",
+    "type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:name",
+				"name": "rocket_flames"
+			},
+			{
+				"type": "origins:name",
+				"name": "hellfire"
+			},
+			{
+				"type": "origins:name",
+				"name": "flare"
+			},
+			{
+				"type": "origins:name",
+				"name": "fire_damage"
+			},
+			{
+				"type": "origins:name",
+				"name": "fan_fire"
+			},
+			{
+				"type": "origins:name",
+				"name": "fan_lava"
+			},
+			{
+				"type": "origins:name",
+				"name": "stove_burn"
+			},
+			{
+				"type": "origins:name",
+				"name": "dragon_fire"
+			},
+			{
+				"type": "origins:name",
+				"name": "fireworks"
+			},
+			{
+				"type": "origins:name",
+				"name": "fireball"
+			},
+			{
+				"type": "origins:name",
+				"name": "hotFloor"
+			},
+			{
+				"type": "origins:name",
+				"name": "inFire"
+			},
+			{
+				"type": "origins:name",
+				"name": "lava"
+			},
+			{
+				"type": "origins:name",
+				"name": "onFire"
+			},
+			{
+				"type": "origins:name",
+				"name": "unattributed_fireball"
+			},
+			{
+				"type": "origins:name",
+				"name": "overheat"
+			},
+			{
+				"type": "origins:name",
+				"name": "sun_dance"
+			}
+		]
+	},
+	"modifier": {
+		"operation": "multiply_base_multiplicative",
+		"value": -0.5
+	}
+}

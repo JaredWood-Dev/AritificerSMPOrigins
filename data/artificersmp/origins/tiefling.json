@@ -1,5 +1,11 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:tiefling/tiefling_hellish_resistance",
+        "artificersmp:tiefling/tiefling_thuamaturgy",
+        "artificersmp:tiefling/tiefling_hellish_rebuke",
+        "artificersmp:tiefling/tiefling_infernal_arcana",
+        "artificersmp:darkvision"
+    ],
     "icon": {
         "item":"minecraft:red_nether_bricks"
     },
