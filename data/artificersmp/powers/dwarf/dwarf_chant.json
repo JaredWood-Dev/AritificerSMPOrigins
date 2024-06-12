@@ -32,8 +32,7 @@
       "compare_to": 1
     }
   },
-  "used":
-  {
+  "used": {
     "type": "origins:resource",
     "min": 0,
     "max": 1,

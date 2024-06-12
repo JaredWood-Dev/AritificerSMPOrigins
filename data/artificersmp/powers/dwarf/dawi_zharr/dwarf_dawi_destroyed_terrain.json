@@ -1,0 +1,112 @@
+{
+  "name": "Destroyed Terrain",
+  "description": "You are stronger in gray and dead environments, and you are weakened elsewhere.",
+  "type": "origins:multiple",
+  "strength": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "addition",
+      "value": 1
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:in_tag",
+            "tag": "forge:is_dead"
+          }
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:in_tag",
+            "tag": "forge:desert"
+          }
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:in_tag",
+            "tag": "forge:badlands"
+          }
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:in_tag",
+            "tag": "terralith:shrublands"
+          }
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:in_tag",
+            "tag": "terralith:volcanic"
+          }
+        }
+      ]
+    }
+  },
+  "weakness": {
+    "type": "origins:stacking_status_effect",
+    "effect": {
+      "effect": "minecraft:weakness",
+      "show_icon": false,
+      "show_particles": false,
+      "amplifier": 0
+    },
+    "duration_per_stack": 100,
+    "min_stacks": -3,
+    "max_stacks": 1,
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:biome",
+              "condition": {
+                "type": "origins:in_tag",
+                "tag": "forge:is_dead"
+              }
+            },
+            {
+              "type": "origins:biome",
+              "condition": {
+                "type": "origins:in_tag",
+                "tag": "forge:desert"
+              }
+            },
+            {
+              "type": "origins:biome",
+              "condition": {
+                "type": "origins:in_tag",
+                "tag": "forge:badlands"
+              }
+            },
+            {
+              "type": "origins:biome",
+              "condition": {
+                "type": "origins:in_tag",
+                "tag": "terralith:shrublands"
+              }
+            },
+            {
+              "type": "origins:biome",
+              "condition": {
+                "type": "origins:in_tag",
+                "tag": "terralith:volcanic"
+              }
+            }
+          ],
+          "inverted": true
+        }
+      ]
+    }
+  }
+}

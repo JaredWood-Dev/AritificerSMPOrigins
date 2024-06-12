@@ -1,5 +1,10 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:dwarf/dawi_zharr/dwarf_dawi_magic_affinity",
+        "artificersmp:dwarf/dawi_zharr/dwarf_dawi_hellcannon",
+        "artificersmp:dwarf/dawi_zharr/dwarf_dawi_fire_resistance",
+        "artificersmp:dwarf/dawi_zharr/dwarf_dawi_destroyed_terrain"
+    ],
     "icon": {
         "item":"minecraft:magma_block"
     },
