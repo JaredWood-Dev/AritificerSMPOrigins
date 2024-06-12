@@ -1,5 +1,9 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:dwarf/duegar/dwarf_duegar_magic",
+        "artificersmp:sunlight_sensitivity",
+        "artificersmp:superior_darkvision"
+    ],
     "icon": {
         "item":"minecraft:deepslate"
     },

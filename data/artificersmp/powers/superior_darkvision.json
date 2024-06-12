@@ -1,0 +1,6 @@
+{
+    "name": "Superior Darkvision",
+    "description": "You are able to see extremely well in the dark.",
+    "type": "origins:night_vision",
+    "strength": 0.8
+}
