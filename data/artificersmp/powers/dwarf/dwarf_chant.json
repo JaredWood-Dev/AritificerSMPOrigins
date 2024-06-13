@@ -19,9 +19,9 @@
           "change": 0
         },
         {
-          "type": "origins:play_sound",
-          "sound": "artificersmp:sounds/dwarf_chant.ogg",
-          "volume": 0.625
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "/playsound artificersmp:dwarf_chant player @s ~ ~ ~ .625"
         }
       ]
     },
@@ -38,7 +38,7 @@
     "max": 1,
     "start_value": 1,
     "hud_render": {
-      "sprite_location": "artificersmp:textures/gui/pickaxestatus.png",
+      "sprite_location": "artificersmp:textures/resource_icons.png",
       "bar_index": 0
     }
   },
