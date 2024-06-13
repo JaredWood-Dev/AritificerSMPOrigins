@@ -1,0 +1,22 @@
+{
+  "name": "Dwarven Combat Training",
+  "description": "You have proficiency with axes, dealing slightly more damage with them.",
+  "type": "origins:modify_damage_dealt",
+  "damage_condition":{
+    "type": "origins:attacker",
+    "entity_condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "minecraft:axes"
+        }
+      }
+    }
+  },
+  "modifier": {
+    "operation": "addition",
+    "value": 1.0
+  }
+}

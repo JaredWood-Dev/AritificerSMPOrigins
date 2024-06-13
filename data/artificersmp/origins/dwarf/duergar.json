@@ -1,9 +1,13 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:dwarf/duegar/dwarf_duegar_magic",
+        "artificersmp:sunlight_sensitivity",
+        "artificersmp:superior_darkvision"
+    ],
     "icon": {
         "item":"minecraft:deepslate"
     },
-    "impact": 1,
+    "impact": 2,
     "name": "Duergar",
     "description": "Duergar are dwarves who's ansestors have spent centuries living in the underdark. They still bear the scars of fightning the illithids in the dark, chaotic realm."
 }

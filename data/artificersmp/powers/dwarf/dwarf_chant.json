@@ -1,0 +1,63 @@
+{
+  "name": "Dwarven Chant",
+  "description": "Once per day, you and those nearby mine extremely fast for a short time.",
+  "type": "origins:multiple",
+  "haste": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "effect give @a[distance=..10] minecraft:haste 60 2"
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "artificersmp:dwarf/dwarf_chant_used",
+          "operation": "set",
+          "change": 0
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "/playsound artificersmp:dwarf_chant player @s ~ ~ ~ .625"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "artificersmp:dwarf/dwarf_chant_used",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+  "used": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "start_value": 1,
+    "hud_render": {
+      "sprite_location": "artificersmp:textures/resource_icons.png",
+      "bar_index": 0
+    }
+  },
+  "long_rest": {
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "artificersmp:dwarf/dwarf_chant_used",
+      "operation": "set",
+      "change": 1
+    }
+  },
+  "reset_on_death": {
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:change_resource",
+      "resource": "artificersmp:dwarf/dwarf_chant_used",
+      "operation": "set",
+      "change": 1
+    }
+  }
+}
