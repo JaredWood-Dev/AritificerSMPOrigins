@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Villager Hate",
+    "description" : "Due to your origin's history, villagers are hostile with you.",
+    "interval": 10,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s as @e[type=villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'major_negative',Value:110}]}",
+          "permission_level": 2
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s as @e[type=villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p UUID",
+          "permission_level": 2
+        }
+      ]
+    }
+  }

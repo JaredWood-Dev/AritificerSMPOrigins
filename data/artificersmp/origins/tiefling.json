@@ -4,7 +4,8 @@
         "artificersmp:tiefling/tiefling_thuamaturgy",
         "artificersmp:tiefling/tiefling_hellish_rebuke",
         "artificersmp:tiefling/tiefling_infernal_arcana",
-        "artificersmp:darkvision"
+        "artificersmp:darkvision",
+        "artificersmp:tiefling/tiefling_thuamaturgy_fire"
     ],
     "icon": {
         "item":"minecraft:red_nether_bricks"

@@ -2,7 +2,9 @@
     "powers": [
         "artificersmp:sunlight_sensitivity",
         "artificersmp:elf/drow/drow_drow_weapon_training",
-        "artificersmp:elf/drow/drow_drow_repuation"
+        "artificersmp:elf/drow/drow_drow_repuation",
+        "artificersmp:superior_darkvision",
+        "artificersmp:villager_hate"
     ],
     "icon": {
         "item":"minecraft:flint"

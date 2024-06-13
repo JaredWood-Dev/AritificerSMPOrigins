@@ -2,7 +2,8 @@
     "powers": [
         "artificersmp:dwarf/duegar/dwarf_duegar_magic",
         "artificersmp:sunlight_sensitivity",
-        "artificersmp:superior_darkvision"
+        "artificersmp:superior_darkvision",
+        "artificersmp:villager_hate"
     ],
     "icon": {
         "item":"minecraft:deepslate"

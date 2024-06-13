@@ -1,31 +1,18 @@
 {
     "name": "Mountain Habitait",
-    "description": "You are so accustomed to mountains, that warm places weaken you.",
+    "description": "You are so accustomed to mountains, you move quickly while in them.",
     "condition": {
         "type": "origins:biome",
         "condition": {
             "type": "origins:temperature",
-            "comparison": ">=",
+            "comparison": "<=",
             "compare_to": 0.9
         }
     },
-    "type": "origins:stacking_status_effect",
-    "effects": [
-        {
-            "effect": "minecraft:weakness",
-            "show_icon": false,
-            "show_particles": false,
-            "amplifier": 0
-        },
-        {
-            "effect": "minecraft:slowness",
-            "show_icon": false,
-            "show_particles": false,
-            "amplifier": 0
-        }
-    ],
-    "min_stacks": -3,
-    "max_stacks": 1,
-    "duration_per_stack": 100,
-    "tick_rate": 20
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_total",
+        "value": 0.1
+    }
 }

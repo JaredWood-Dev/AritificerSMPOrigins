@@ -11,7 +11,7 @@
         {
             "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
             "operation": "multiply_total",
-            "value": 0.1
+            "value": 0.25
         }
     ]
 }

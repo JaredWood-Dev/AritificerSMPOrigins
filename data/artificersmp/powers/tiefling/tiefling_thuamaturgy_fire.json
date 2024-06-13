@@ -1,0 +1,19 @@
+{
+    "name": "Thuamaturgy: Firebolt",
+    "description": "You are naturally skilled at basic magic. You can cast thaumatugry to create different effects. You fire a small firebolt.",
+    "type": "origins:multiple",
+    "fire": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:fire_projectile",
+            "count": 1,
+            "divergence": 0.0,
+            "speed": 1.0,
+            "entity_type": "minecraft:small_fireball"
+        },
+        "cooldown": 60,
+        "hud_render": {
+            "should_render": true
+        }
+    }
+}

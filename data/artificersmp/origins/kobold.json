@@ -6,7 +6,9 @@
         "artificersmp:sunlight_sensitivity",
         "artificersmp:kobold/kobold_kin",
         "artificersmp:kobold/kobold_reputation",
-        "artificersmp:kobold/kobold_draconic_sorcery"
+        "artificersmp:kobold/kobold_draconic_sorcery",
+        "artificersmp:kobold/kobold_draconic_cry",
+        "artificersmp:villager_hate"
     ],
     "icon": {
         "item":"minecraft:gold_nugget"

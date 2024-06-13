@@ -1,44 +1,11 @@
 {
     "name": "Thuamaturgy",
-    "description": "You are naturally skilled at basic magic. You can cast thaumatugry to create different effects. Right click with an empty hand, while sneaking, to light a fire. Press your primary key to make Thunderous noise.",
+    "description": "You are naturally skilled at basic magic. You can cast thaumatugry to create different effects. Press your key to make Thunderous noise.",
     "type": "origins:multiple",
-    "fire": {
-        "type": "origins:action_on_block_use",
-        "block_action": {
-            "type": "origins:offset",
-            "y": 1,
-            "action": {
-                "type": "origins:set_block",
-                "block": "minecraft:fire"
-            }
-        },
-        "block_condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:offset",
-                    "y": 1,
-                    "condition": {
-                        "type": "origins:block",
-                        "block": "minecraft:air"
-                    }
-                }
-            ]
-        },
-        "condition": {
-            "type": "origins:sneaking"
-        },
-        "item_condition": {
-            "type": "origins:empty"
-        },
-        "hands": [
-            "main_hand"
-        ]
-    },
     "thunder": {
         "type": "origins:active_self",
         "key": {
-            "key": "key.origins.primary_active"
+            "key": "key.origins.secondary_active"
         },
         "cooldown": 20,
         "entity_action": {
