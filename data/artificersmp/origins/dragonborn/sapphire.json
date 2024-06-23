@@ -1,5 +1,10 @@
 {
-    "powers": [],
+    "powers": [
+         "artificersmp:dragonborn/sapphire/sapphire_breath_weapon",
+         "artificersmp:dragonborn/dragonborn_draconic_resistance_thunder",
+         "artificersmp:dragonborn/gem_gem_flight",
+         "artificersmp:dragonborn/dragonborn_habitat_underground"
+    ],
     "icon": {
         "item":"iceandfire:sapphire_gem"
     },

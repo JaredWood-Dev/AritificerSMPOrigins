@@ -1,0 +1,160 @@
+{
+    "name": "Chromatic Warding",
+    "description": "Once per day you invoke your connection to chromatic dragons, you become immune to lightning damage for 1 minute.",
+    "type": "origins:multiple",
+    "used":
+    {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": false,
+            "bar_index": 3
+        }
+    },
+    "duration":{
+        "type": "origins:resource",
+        "min": 0,
+        "max": 60,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 20,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "artificersmp:dragonborn/blue/blue_chromatic_warding_duration",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            "icon_index": 0,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png"
+        }
+    },
+    "warding": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "spark"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "tesla_coil"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "dragon_lightning"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "razor_shock"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "tesla"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "tesla_primary"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "wire_shock"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "lightningBolt"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "set_base",
+            "value": 0.0
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "artificersmp:dragonborn/blue/blue_chromatic_warding_duration",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "activate": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "artificersmp:dragonborn/blue/blue_chromatic_warding_duration",
+                    "operation": "set",
+                    "change": 60
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "artificersmp:dragonborn/blue/blue_chromatic_warding_used",
+                    "operation": "set",
+                    "change": 1
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "artificersmp:dragonborn/blue/blue_chromatic_warding_used",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "update_duration": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "artificersmp:dragonborn/blue/blue_chromatic_warding_duration",
+            "operation": "add",
+            "change": -1
+        }
+    },
+    "long_rest": {
+        "type": "origins:action_on_wake_up",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "artificersmp:dragonborn/blue/blue_chromatic_warding_duration",
+                    "operation": "set",
+                    "change": 0
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "artificersmp:dragonborn/blue/blue_chromatic_warding_used",
+                    "operation": "set",
+                    "change": 0
+                }
+            ]
+        }
+    },
+    "reset_on_death": {
+        "type": "origins:action_on_callback",
+        "entity_action_respawned": {
+            "type": "origins:change_resource",
+            "resource": "artificersmp:dragonborn/blue/blue_chromatic_warding_used",
+            "operation": "set",
+            "change": 0
+        }
+    },
+    "reset_on_duration_death": {
+        "type": "origins:action_on_callback",
+        "entity_action_respawned": {
+            "type": "origins:change_resource",
+            "resource": "artificersmp:dragonborn/blue/blue_chromatic_warding_duration",
+            "operation": "set",
+            "change": 0
+        }
+    }
+}

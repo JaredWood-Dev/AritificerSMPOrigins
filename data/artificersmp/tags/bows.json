@@ -1,0 +1,9 @@
+{
+    "values":[
+      "minecraft:bow",
+      {
+        "id":"#minecraft:bows",
+        "required":false
+      }
+    ]
+  }

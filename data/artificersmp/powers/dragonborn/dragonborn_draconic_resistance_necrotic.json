@@ -1,0 +1,53 @@
+{
+    "name": "Draconic Resistance",
+    "description": "You scales protect you from necrotic energy. You take half the amount of necrotic damage as normal and the wither condition lasts half as long.",
+    "type": "origins:multiple",
+    "damage": {
+        "type": "origins:modify_damage_taken",
+	    "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "ritual"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "sacrifice"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "corruption"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "extract_soul"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "wither"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "wither_skull"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "xp_extracting"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "multiply_base_multiplicative",
+            "value": -0.5
+        }
+    },
+    "status": {
+        "type": "origins:modify_status_effect_duration",
+        "status_effect": "minecraft:wither",
+        "modifier": {
+            "operation": "multiply_base_multiplicative",
+            "value": -0.5
+        }
+    }   
+}

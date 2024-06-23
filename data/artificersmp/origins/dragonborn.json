@@ -1,9 +1,12 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:dragonborn/dragonborn_draconic_build",
+        "origins:more_exhaustion"
+    ],
     "icon": {
         "item": "minecraft:dragon_egg"
     },
-    "impact": 1,
+    "impact": 2,
     "name": "Dragonborn",
     "description": "The Dragonborn look like humanoid dragons, bearing the virbant colored scales of thier dragon kin. The Dragonborn are defined by thier breath that matches thier draconic ansestry."
 }

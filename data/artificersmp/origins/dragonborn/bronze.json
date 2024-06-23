@@ -1,5 +1,9 @@
 {
-    "powers": [],
+    "powers": [
+         "artificersmp:dragonborn/blue/blue_breath_weapon",
+         "artificersmp:dragonborn/dragonborn_draconic_resistance_lightning",
+         "artificersmp:dragonborn/dragonborn_habitat_coast"
+    ],
     "icon": {
         "item":"ad_astra:desh_ingot"
     },

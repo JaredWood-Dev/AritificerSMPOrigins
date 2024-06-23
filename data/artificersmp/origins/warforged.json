@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "artificersmp:warforged/warforged_armor",
+        "artificersmp:warforged/warforged_immunity",
+        "artificersmp:warforged/warforged_speed",
+        "artificersmp:warforged/warforged_rust"
+    ],
+    "icon": {
+        "item":"minecraft:observer"
+    },
+    "impact": 2,
+    "name": "Warforged",
+    "description": "Warforged are powerful, living constructs forged from a combination of wood, stone, and metal."
+}

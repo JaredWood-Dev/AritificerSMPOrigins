@@ -1,5 +1,9 @@
 {
-    "powers": [],
+    "powers": [
+         "artificersmp:dragonborn/white/white_breath_weapon",
+         "artificersmp:dragonborn/dragonborn_draconic_resistance_cold",
+         "artificersmp:dragonborn/dragonborn_habitat_mountains_and_glaciers"
+    ],
     "icon": {
         "item":"iceandfire:silver_ingot"
     },

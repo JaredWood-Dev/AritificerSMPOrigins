@@ -1,0 +1,39 @@
+{
+    "name": "Drow Weapon Training",
+    "description": "You have proficiency with swords and crossbows, dealing slightly more damage with them.",
+    "type": "apoli:multiple",
+    "swords": {
+        "type": "origins:modify_damage_dealt",
+        "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "artificersmp:swords"
+          }
+        }
+      },
+      "modifier": {
+        "operation": "addition",
+        "value": 1.0
+      }
+    },
+    "bows": {
+        "type": "origins:modify_damage_dealt",
+        "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "artificersmp:crossbows"
+          }
+        }
+      },
+      "modifier": {
+        "operation": "addition",
+        "value": 1.0
+      }
+    }
+  }

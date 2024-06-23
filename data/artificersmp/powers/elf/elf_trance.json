@@ -1,0 +1,9 @@
+{
+    "name": "Trance",
+    "description": "Instead of sleeping you enter an elven trance. You insommnia builds slower.",
+    "type": "origins:modify_insomnia_ticks",
+    "modifier" : {
+        "operation": "multiply_base",
+        "value": 0.5
+    }
+}

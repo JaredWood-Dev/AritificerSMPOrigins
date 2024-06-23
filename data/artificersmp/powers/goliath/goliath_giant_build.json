@@ -1,0 +1,108 @@
+{
+    "name": "Giant Build",
+    "description": "Your strength granted by your ansestry makes you bigger and hit harder.",
+    "type": "origins:multiple",
+    "size": {
+	    "type": "origins:action_on_callback",
+	    "entity_action_chosen":
+	    {
+		    "type": "origins:and",
+		    "actions": [
+			    {
+				    "type": "origins:execute_command",
+				    "permission_level": 4,
+				    "command": "scale set pehkui:height 1.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:width 1.5 @s"
+                }
+            ]
+        },
+        "entity_action_added":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:height 1.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:width 1.5 @s"
+                }
+            ]
+        },
+        "entity_action_lost":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:height 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:width 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:eye_height 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:hitbox_height 1 @s"
+                }
+            ]
+        },
+        "entity_action_removed":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:height 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:width 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:eye_height 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale set pehkui:hitbox_height 1 @s"
+                }
+            ]
+        }
+    },
+    "strength": {
+        "type": "origins:attribute",
+	    "modifier": {
+		"attribute": "minecraft:generic.attack_damage",
+		"operation": "addition",
+		"value": 2
+	    }
+    },
+    "speed": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "value": 0.1
+        }
+    }
+}

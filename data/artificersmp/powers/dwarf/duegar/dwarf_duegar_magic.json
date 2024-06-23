@@ -1,0 +1,228 @@
+{
+  "name": "Duergar Magic",
+  "description": "Once per day, you can grow to double your size.",
+  "type": "origins:multiple",
+  "grow": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:height 1.6 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:width 1.8 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:block_reach 1.5 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:entity_reach 1.5 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:step_height 2 @s"
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_used",
+          "operation": "set",
+          "change": 1
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_duration",
+          "operation": "set",
+          "change": 60
+        }
+      ]
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_used",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  },
+  "used":
+  {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "start_value": 0,
+    "hud_render": {
+      "should_render": false,
+      "bar_index": 3
+    }
+  },
+  "duration":{
+    "type": "origins:resource",
+    "min": 0,
+    "max": 60,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 19,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_duration",
+        "comparison": ">",
+        "compare_to": 0
+      },
+      "icon_index": 0,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png"
+    }
+  },
+  "long_rest": {
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:height .8 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:width .9 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:block_reach 1 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:entity_reach 1 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:step_height 1 @s"
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_used",
+          "operation": "set",
+          "change": 0
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_duration",
+          "operation": "set",
+          "change": 0
+        }
+      ]
+    }
+  },
+  "update_duration": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_duration",
+      "operation": "add",
+      "change": -1
+    }
+  },
+  "reset": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:height .8 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:width .9 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:block_reach 1 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:entity_reach 1 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "permission_level": 4,
+          "command": "scale set pehkui:step_height 1 @s"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_duration",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  },
+  "reset_on_death": {
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:change_resource",
+      "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_used",
+      "operation": "set",
+      "change": 0
+    }
+  },
+  "reset_on_duration_death": {
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:change_resource",
+      "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_duration",
+      "operation": "set",
+      "change": 0
+    }
+  },
+  "strength": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "addition",
+      "value": 1
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_duration",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "speed": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": 0.6
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "artificersmp:dwarf/duegar/dwarf_duegar_magic_duration",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  }
+}

@@ -1,5 +1,8 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:elf/elf_weapon_training",
+        "artificersmp:elf/high/high_high_elf_magic"
+    ],
     "icon": {
         "item":"minecraft:nether_star"
     },

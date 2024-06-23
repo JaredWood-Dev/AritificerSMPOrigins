@@ -1,5 +1,11 @@
 {
-    "powers": [],
+    "powers": [
+        "artificersmp:goliath/goliath_mountain_born",
+        "artificersmp:goliath/goliath_giant_build",
+        "origins:more_exhaustion",
+        "artificersmp:goliath/goliath_giant_legacy",
+        "artificersmp:goliath/goliath_enviroment"
+    ],
     "icon": {
         "item":"minecraft:stone"
     },

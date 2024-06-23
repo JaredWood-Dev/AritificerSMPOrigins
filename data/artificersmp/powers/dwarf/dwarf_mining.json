@@ -1,0 +1,9 @@
+{
+  "name" : "Stonecunning",
+  "description" : "You have a natural affinity for rock and stone. You mine faster.",
+  "type" : "origins:modify_break_speed",
+  "modifier" : {
+    "operation" : "multiply_base",
+    "value" : 1.15
+  }
+}

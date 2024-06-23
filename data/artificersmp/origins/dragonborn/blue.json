@@ -1,5 +1,10 @@
 {
-    "powers": [],
+    "powers": [
+         "artificersmp:dragonborn/blue/blue_breath_weapon",
+         "artificersmp:dragonborn/dragonborn_draconic_resistance_lightning",
+         "artificersmp:dragonborn/dragonborn_habitat_warm_and_dry",
+         "artificersmp:dragonborn/blue/blue_chromatic_warding"
+    ],
     "icon": {
         "item":"minecraft:blue_dye"
     },

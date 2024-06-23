@@ -1,0 +1,17 @@
+{
+    "name": "Infernal Arcana",
+    "description": "The magic of the hells flows through your veins, making you naturally good at magic. You have increased maximum mana and mana regeneration.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+            "operation": "multiply_total",
+            "value": 0.5
+        },
+        {
+            "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+            "operation": "multiply_total",
+            "value": 0.1
+        }
+    ]
+}

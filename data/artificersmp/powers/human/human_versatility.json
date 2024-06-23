@@ -1,0 +1,50 @@
+{
+    "name": "Human Versatility",
+    "description": "You are versatilie in many skills and trades. You get a small buff to most stats.",
+    "type": "origins:multiple",
+    "attack": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Attack Damage Bonus",
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 0.15,
+            "operation": "multiply_base"
+        }
+    },
+    "mana_regen": {
+        "type": "origins:attribute",
+        "modifier": {
+        "name": "Mana Regeneration Speed",
+        "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+        "value": 0.05,
+        "operation": "multiply_base"
+        }
+    },
+    "mana_max": {
+        "type": "origins:attribute",
+        "modifier": {
+        "name": "Maximum Mana",
+        "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+        "value": 0.05,
+        "operation": "multiply_base"
+        }
+    },
+    "mining_speed": {
+        "type": "origins:attribute",
+        "modifier": {
+        "name": "Mining Speed",
+        "attribute": "attributeslib:dig_speed",
+        "value": 0.05,
+        "operation": "multiply_base"
+        }
+    },
+    "movement_speed": {
+        "type": "origins:attribute",
+        "modifier": {
+        "name": "Movement Speed",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.05,
+        "operation": "multiply_base"
+        }
+    }
+}
