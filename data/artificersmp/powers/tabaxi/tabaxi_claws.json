@@ -1,0 +1,20 @@
+{
+  "name": "Claws",
+  "description": "You have sharp claws. You deal 6 damage while unarmed.",
+  "type": "origins:modify_damage_dealt",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:air"
+      }
+    }
+  },
+  "modifier": {
+    "name": "Extra damage when submerged",
+    "operation": "addition",
+    "value": 5.0
+  }
+}

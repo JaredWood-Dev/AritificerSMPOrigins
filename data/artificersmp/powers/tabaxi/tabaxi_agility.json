@@ -1,0 +1,36 @@
+{
+  "name": "Agility",
+  "description": "You are slightly faster than average and take less fall damage.",
+  "type": "origins:multiple",
+  "speed": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": 0.15
+    }
+  },
+  "fall_height": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "fall"
+    },
+    "condition": {
+      "type": "origins:fall_distance",
+      "comparison": "<=",
+      "compare_to": 6
+    }
+  },
+  "fall_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "fall"
+    },
+    "modifier": {
+      "operation": "multiply_base_multiplicative",
+      "value": -0.5
+    }
+  }
+}

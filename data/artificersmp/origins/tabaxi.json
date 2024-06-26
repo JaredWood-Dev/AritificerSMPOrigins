@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "artificersmp:tabaxi/tabaxi_agility",
+        "artificersmp:tabaxi/tabaxi_build",
+        "artificersmp:tabaxi/tabaxi_claws",
+        "origins:scare_creepers",
+        "artificersmp:darkvision"
+    ],
+    "icon": {
+        "item":"minecraft:ocelot_spawn_egg"
+    },
+    "impact": 1,
+    "name": "Tabaxi",
+    "description": "meow"
+}
